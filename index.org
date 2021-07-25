@@ -1,0 +1,209 @@
+#+title: Financial Analytics in Python
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: num:nil
+
+#+BEGIN_COMMENT
+Note most other courses use stock data and create trading algorithms.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These questions are increasingly being answered in Python rather than Excel.
+
+We can provide exercises at the end of each session.  The students can complete these in a Jupyter notebook, and we can provide solutions.  Do we want to attempt to grade them?
+#+END_COMMENT
+
+* Introduction
+
+* Module 0 (Setup)
+
+** Session 0
+
+- Course Overview:  
+  + What we will cover in the course.  
+  + The use of Python in finance.
+- Python Relative to other tools.
+  + Excel
+  + Other Programming Languages
+  + Comparison with R
+  + Using Javascript for Visualization
+
+** Session 1
+
+[[https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5][Colab Notebook]]
+
+-  Interacting with Python
+  + Google's Colab and Jupyter
+    - Introduction to markdown
+    - Sharing notebooks
+- Intro to the Linux Server
+- Creating Functions and Time-Value-of-Money calculations
+- Basic control flow
+- The importance of indentation
+
+** Session 2
+
+[[https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_][Colab Notebook]]
+
+- Sharing code and the Python ecosystem.  
+- Python Packages
+  + Extending the core language
+  + Our most used packages.
+  + Installing and Loading.
+  + How to call methods/functions from a package.
+  + Package security.
+
+* Module 1 (Pandas and Data Description)
+
+This module focuses on corporate finance related tasks.  Accordingly we read data from spreadsheet and /Dataframe/ structures.
+
+** Session 0
+
+[[https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R][Colab Notebook]]
+
+*** Exercise: Is there a correlation between industry institutional ownership and return on equity?
+
+- An intro to Pandas
+- Reading csv and excel files over http.
+- Data cleaning.
+- Inspecting the objects
+- Determining dataframe size and the column types.
+- Adding new columns
+- A note of functions vs methods.
+
+** Session 1
+
+[[https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh][Colab Notebook]]
+
+*** Exercise: What is the average on and off-peak real-time fuel mix?
+
+- Dates in Pandas.
+- Interacting with the operating system from Python.
+- Summarizing by creating group means, etc.
+
+#+begin_comment
+Alternative Exercises:
+ PPP Loan Statistics by State
+ What is the average price at which a power plant sells electricity?
+ What is the NPV of a Power Plant over a Year?
+#+end_comment
+
+** Session 2
+
+[[https://colab.research.google.com/drive/18axbgTGt66R7fXa3tsiErQMoyb8m-AJD][Colab Notebook]]
+
+*** Exercise: Where were the PPP loans made?
+
+- Filtering DataFrames
+- Pivot Tables
+
+#+begin_comment
+Finish notebook and summarize what was learned.
+- Creating our own functions.
+- Time value of money calculations.
+- Should we go with the full set of steps to create the PPP data set?
+Connecting to databases here?
+#+end_comment
+
+** Session 3
+
+[[https://colab.research.google.com/drive/1TWjqlgTp1Fyyy_ykp48LBVFWjRqtBwzo][Colab Notebook]]
+
+The previous sections have used data available online through APIs and flat files.  Commonly the financial analyst will have to query relational (SQL) databases.  In this section we'll cover the basics of connecting to a SQL database in Python, and executing SQL queries, and returning the data as a Pandas /DataFrame/.
+
+#+BEGIN_COMMENT
+-  Good website to learn SQL (MySQL): [[https://www.db-fiddle.com/][db-fiddle]]
+#+END_COMMENT
+
+* Module 2 (Numpy/Scipy and APIs)
+  
+This module focuses on using scientific computing libraries such as Numpy Scipy to complete investments-focused tasks. We also retrieve JSON data from APIs.
+
+** Session 0
+
+[[https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH][Colab Notebook]]
+
+- An introduction to Application Programming Interfaces (APIs) and online
+  data
+  + Example: Coinbase API
+  + Example: Interactive Brokers API
+  + EIA API.
+- Connecting to databases.
+
+*** Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.
+*** Alternative: Calculate futures prices given options (but we cant get this from API data).
+
+** Session 1
+
+[[https://colab.research.google.com/drive/1GGXpVBhSIypRslVcjWB5TYcexeRxZlyY][Colab Notebook]]
+
+-  An overview of scipy and basic statistics in Python.
+  + Extracting coefficients from an estimated regression model.
+
+*** Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.
+
+#+begin_comment
+#*** Exercise: Create a function which will estimate the beta coefficient for a given stock.
+#*** Advanced Exercise: Make it better with pytorch/pyro and the Kalman filter.
+#+end_comment
+
+#+begin_comment
+- Example: Classification of Failed/Acquired Banks via Neural Network
+#+end_comment
+
+** Session 2
+
+[[https://colab.research.google.com/drive/1u4BUOasPaIVfe8-rD73QXlXmt5EMIMxK][Colab Notebook]]
+
+*** Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)
+
+
+* Module 3
+
+This module focuses on showcasing your work via visualizations, sharing code via git and GitHub, and .  How to share code, get help, and create reproducible
+environments.
+
+** Session 0
+
+[[https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe][Colab Notebook]]
+
+- Visualization:
+  + Matplotlib
+  + Seaborn
+  + Plotly
+  + ggplot (using plotnine library)
+- Interactive Web Apps via Plotly's Dash
+
+** Session 1
+
+- The Integrated Development Environment (IDE)
+  + What does an IDE provide?
+    - Code Completion
+    - Linter
+  + Git/Github and IDE Integration
+
+- Virtual Environments
+  +  Ensuring compatible python and package versions.
+  +  Anaconda Python
+
+** Session 2
+
+[[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
+
+- Git/Github and IDE Integration
+  + Why use version control?
+    - Collaborate with others more easily.
+    - Show others your work.
+
+#+BEGIN_COMMENT
+- [[https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb][Github from Colab]]
+#+END_COMMENT
+
+* Bonus Project: Predict Small Business Loans with a Deep Neural Network
+
+[[https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing][Colab Notebook]]
+
+-  Intro to Machine Learning and Tensorflow 
+
+* Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)
+
+[[https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P][Colab Notebook]]
+
+- Compare ARKK vs another portfolio.
+- Calculate Sharpe and Information Ratios.
+
