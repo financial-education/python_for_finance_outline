@@ -2,6 +2,11 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
+The course is broadly divided into 4 modules, each with 3 to 4 sessions. There are also 2 bonus sessions.
+
+- Be sure to follow along in your copy of the Colab Notebooks.
+- You can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
+
 #+BEGIN_COMMENT
 Note most other courses use stock data and create trading algorithms.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These questions are increasingly being answered in Python rather than Excel.
 
@@ -10,9 +15,13 @@ We can provide exercises at the end of each session.  The students can complete 
 
 * Introduction
 
-* Module 0 (Setup)
+Intro Video
+
+* Module 0: Setup
 
 ** Session 0
+
+Session Video [Link]
 
 - Course Overview:  
   + What we will cover in the course.  
@@ -24,6 +33,8 @@ We can provide exercises at the end of each session.  The students can complete 
   + Using Javascript for Visualization
 
 ** Session 1
+
+Session Video
 
 [[https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5][Colab Notebook]]
 
@@ -48,11 +59,11 @@ We can provide exercises at the end of each session.  The students can complete 
   + How to call methods/functions from a package.
   + Package security.
 
-* Module 1 (Pandas and Data Description)
+* Module 1: Pandas and Spreadsheet Data
 
 This module focuses on corporate finance related tasks.  Accordingly we read data from spreadsheet and /Dataframe/ structures.
 
-** Session 0
+** Session 3
 
 [[https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R][Colab Notebook]]
 
@@ -66,7 +77,7 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 - Adding new columns
 - A note of functions vs methods.
 
-** Session 1
+** Session 4
 
 [[https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh][Colab Notebook]]
 
@@ -83,7 +94,7 @@ Alternative Exercises:
  What is the NPV of a Power Plant over a Year?
 #+end_comment
 
-** Session 2
+** Session 5
 
 [[https://colab.research.google.com/drive/18axbgTGt66R7fXa3tsiErQMoyb8m-AJD][Colab Notebook]]
 
@@ -100,7 +111,7 @@ Finish notebook and summarize what was learned.
 Connecting to databases here?
 #+end_comment
 
-** Session 3
+** Session 6
 
 [[https://colab.research.google.com/drive/1TWjqlgTp1Fyyy_ykp48LBVFWjRqtBwzo][Colab Notebook]]
 
@@ -110,11 +121,11 @@ The previous sections have used data available online through APIs and flat file
 -  Good website to learn SQL (MySQL): [[https://www.db-fiddle.com/][db-fiddle]]
 #+END_COMMENT
 
-* Module 2 (Numpy/Scipy and APIs)
+* Module 2: Numpy/Scipy and APIs
   
 This module focuses on using scientific computing libraries such as Numpy Scipy to complete investments-focused tasks. We also retrieve JSON data from APIs.
 
-** Session 0
+** Session 7
 
 [[https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH][Colab Notebook]]
 
@@ -128,7 +139,7 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 *** Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.
 *** Alternative: Calculate futures prices given options (but we cant get this from API data).
 
-** Session 1
+** Session 8
 
 [[https://colab.research.google.com/drive/1GGXpVBhSIypRslVcjWB5TYcexeRxZlyY][Colab Notebook]]
 
@@ -146,19 +157,18 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 - Example: Classification of Failed/Acquired Banks via Neural Network
 #+end_comment
 
-** Session 2
+** Session 9
 
 [[https://colab.research.google.com/drive/1u4BUOasPaIVfe8-rD73QXlXmt5EMIMxK][Colab Notebook]]
 
 *** Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)
 
 
-* Module 3
+* Module 3: Sharing Your Work
 
-This module focuses on showcasing your work via visualizations, sharing code via git and GitHub, and .  How to share code, get help, and create reproducible
-environments.
+This module focuses on showcasing your work via visualizations, sharing code via git and GitHub.  We also cover reproducible environments.
 
-** Session 0
+** Session 10
 
 [[https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe][Colab Notebook]]
 
@@ -169,7 +179,7 @@ environments.
   + ggplot (using plotnine library)
 - Interactive Web Apps via Plotly's Dash
 
-** Session 1
+** Session 11
 
 - The Integrated Development Environment (IDE)
   + What does an IDE provide?
@@ -181,7 +191,7 @@ environments.
   +  Ensuring compatible python and package versions.
   +  Anaconda Python
 
-** Session 2
+** Session 12
 
 [[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
 
@@ -194,16 +204,15 @@ environments.
 - [[https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb][Github from Colab]]
 #+END_COMMENT
 
-* Bonus Project: Predict Small Business Loans with a Deep Neural Network
+* Bonus Material
+
+** Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow
 
 [[https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing][Colab Notebook]]
 
--  Intro to Machine Learning and Tensorflow 
 
-* Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)
+** Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)
 
 [[https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P][Colab Notebook]]
 
-- Compare ARKK vs another portfolio.
-- Calculate Sharpe and Information Ratios.
 
