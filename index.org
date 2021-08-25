@@ -1,4 +1,4 @@
-#+title: Financial Analytics in Python
+#+title: Python for Finance
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
