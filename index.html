@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-08-30 Mon 22:42 -->
+<!-- 2021-08-31 Tue 14:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Python for Finance</title>
@@ -228,65 +228,65 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgbf3f3d8">Introduction</a></li>
-<li><a href="#org79ebf0d">Module 0: Setup</a>
+<li><a href="#orge24bfec">Introduction</a></li>
+<li><a href="#org9ff3e54">Module 0: Setup</a>
 <ul>
-<li><a href="#orge3a0328">Session 0</a></li>
-<li><a href="#org555e896">Session 1</a></li>
-<li><a href="#orgb0c9002">Session 2</a></li>
+<li><a href="#org3fb17d7">Session 0</a></li>
+<li><a href="#org0e1edc2">Session 1</a></li>
+<li><a href="#org4235a54">Session 2</a></li>
 </ul>
 </li>
-<li><a href="#org5ccf4c2">Module 1: Pandas and Spreadsheet Data</a>
+<li><a href="#orgbbc525b">Module 1: Pandas and Spreadsheet Data</a>
 <ul>
-<li><a href="#org9c4614b">Session 3</a>
+<li><a href="#org9df2caf">Session 3</a>
 <ul>
-<li><a href="#orgcf1167e">Exercise: Is there a correlation between industry institutional ownership and return on equity?</a></li>
+<li><a href="#orgb11502c">Exercise: Is there a correlation between industry institutional ownership and return on equity?</a></li>
 </ul>
 </li>
-<li><a href="#orgf176813">Session 4</a>
+<li><a href="#org04a6017">Session 4</a>
 <ul>
-<li><a href="#org461761b">Exercise: What is the average on and off-peak real-time fuel mix?</a></li>
+<li><a href="#orge9a254d">Exercise: What is the average on and off-peak real-time fuel mix?</a></li>
 </ul>
 </li>
-<li><a href="#orgcdbd65a">Session 5</a>
+<li><a href="#org404d0d4">Session 5</a>
 <ul>
-<li><a href="#org5514c26">Exercise: Where were the PPP loans made?</a></li>
+<li><a href="#org87308c6">Exercise: Where were the PPP loans made?</a></li>
 </ul>
 </li>
-<li><a href="#orgb5bf8bc">Session 6</a></li>
+<li><a href="#org040553f">Session 6</a></li>
 </ul>
 </li>
-<li><a href="#orgdf55129">Module 2: Numpy/Scipy and APIs</a>
+<li><a href="#org2922578">Module 2: Numpy/Scipy and APIs</a>
 <ul>
-<li><a href="#org8713ff4">Session 7</a>
+<li><a href="#org1fe2d13">Session 7</a>
 <ul>
-<li><a href="#org7b9b92f">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</a></li>
-<li><a href="#orgc55b312">Alternative: Calculate futures prices given options (but we cant get this from API data).</a></li>
+<li><a href="#org8a5aa30">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</a></li>
+<li><a href="#org248c123">Alternative: Calculate futures prices given options (but we cant get this from API data).</a></li>
 </ul>
 </li>
-<li><a href="#orgb5e7d8b">Session 8</a>
+<li><a href="#orgb454b6c">Session 8</a>
 <ul>
-<li><a href="#org7b67c79">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</a></li>
+<li><a href="#org5e960d3">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</a></li>
 </ul>
 </li>
-<li><a href="#org2edca7f">Session 9</a>
+<li><a href="#orgd148f67">Session 9</a>
 <ul>
-<li><a href="#org664aeb0">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</a></li>
+<li><a href="#org29b4979">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org00414d4">Module 3: Sharing Your Work</a>
+<li><a href="#org5144d9f">Module 3: Sharing Your Work</a>
 <ul>
-<li><a href="#org39ea255">Session 10</a></li>
-<li><a href="#org35d09fd">Session 11</a></li>
-<li><a href="#orgf92ff5a">Session 12</a></li>
+<li><a href="#orge265aee">Session 10</a></li>
+<li><a href="#orgb26c169">Session 11</a></li>
+<li><a href="#org828d949">Session 12</a></li>
 </ul>
 </li>
-<li><a href="#orgba92594">Bonus Material</a>
+<li><a href="#orgdf5da35">Bonus Material</a>
 <ul>
-<li><a href="#org1543c51">Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow</a></li>
-<li><a href="#orgb591d02">Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)</a></li>
+<li><a href="#org059da69">Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow</a></li>
+<li><a href="#orgf40c79a">Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)</a></li>
 </ul>
 </li>
 </ul>
@@ -301,24 +301,24 @@ The course is broadly divided into 4 modules, each with 3 to 4 sessions. There a
 <li>You can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy&#x2014;you learn best by experimenting.</li>
 </ul>
 
-<div id="outline-container-orgbf3f3d8" class="outline-2">
-<h2 id="orgbf3f3d8">Introduction</h2>
-<div class="outline-text-2" id="text-orgbf3f3d8">
+<div id="outline-container-orge24bfec" class="outline-2">
+<h2 id="orge24bfec">Introduction</h2>
+<div class="outline-text-2" id="text-orge24bfec">
 <p>
 <a href="https://youtu.be/fGNuZYlk0TA">Intro Video</a>
 </p>
 </div>
 </div>
 
-<div id="outline-container-org79ebf0d" class="outline-2">
-<h2 id="org79ebf0d">Module 0: Setup</h2>
-<div class="outline-text-2" id="text-org79ebf0d">
+<div id="outline-container-org9ff3e54" class="outline-2">
+<h2 id="org9ff3e54">Module 0: Setup</h2>
+<div class="outline-text-2" id="text-org9ff3e54">
 </div>
-<div id="outline-container-orge3a0328" class="outline-3">
-<h3 id="orge3a0328">Session 0</h3>
-<div class="outline-text-3" id="text-orge3a0328">
+<div id="outline-container-org3fb17d7" class="outline-3">
+<h3 id="org3fb17d7">Session 0</h3>
+<div class="outline-text-3" id="text-org3fb17d7">
 <p>
-Session Video [Link]
+<a href="https://youtu.be/1hSvSJblH5Q">Session Video</a>
 </p>
 
 <ul class="org-ul">
@@ -338,9 +338,9 @@ Session Video [Link]
 </div>
 </div>
 
-<div id="outline-container-org555e896" class="outline-3">
-<h3 id="org555e896">Session 1</h3>
-<div class="outline-text-3" id="text-org555e896">
+<div id="outline-container-org0e1edc2" class="outline-3">
+<h3 id="org0e1edc2">Session 1</h3>
+<div class="outline-text-3" id="text-org0e1edc2">
 <p>
 Session Video
 </p>
@@ -366,9 +366,9 @@ Session Video
 </div>
 </div>
 
-<div id="outline-container-orgb0c9002" class="outline-3">
-<h3 id="orgb0c9002">Session 2</h3>
-<div class="outline-text-3" id="text-orgb0c9002">
+<div id="outline-container-org4235a54" class="outline-3">
+<h3 id="org4235a54">Session 2</h3>
+<div class="outline-text-3" id="text-org4235a54">
 <p>
 <a href="https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_">Colab Notebook</a>
 </p>
@@ -388,25 +388,25 @@ Session Video
 </div>
 </div>
 
-<div id="outline-container-org5ccf4c2" class="outline-2">
-<h2 id="org5ccf4c2">Module 1: Pandas and Spreadsheet Data</h2>
-<div class="outline-text-2" id="text-org5ccf4c2">
+<div id="outline-container-orgbbc525b" class="outline-2">
+<h2 id="orgbbc525b">Module 1: Pandas and Spreadsheet Data</h2>
+<div class="outline-text-2" id="text-orgbbc525b">
 <p>
 This module focuses on corporate finance related tasks.  Accordingly we read data from spreadsheet and <i>Dataframe</i> structures.
 </p>
 </div>
 
-<div id="outline-container-org9c4614b" class="outline-3">
-<h3 id="org9c4614b">Session 3</h3>
-<div class="outline-text-3" id="text-org9c4614b">
+<div id="outline-container-org9df2caf" class="outline-3">
+<h3 id="org9df2caf">Session 3</h3>
+<div class="outline-text-3" id="text-org9df2caf">
 <p>
 <a href="https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-orgcf1167e" class="outline-4">
-<h4 id="orgcf1167e">Exercise: Is there a correlation between industry institutional ownership and return on equity?</h4>
-<div class="outline-text-4" id="text-orgcf1167e">
+<div id="outline-container-orgb11502c" class="outline-4">
+<h4 id="orgb11502c">Exercise: Is there a correlation between industry institutional ownership and return on equity?</h4>
+<div class="outline-text-4" id="text-orgb11502c">
 <ul class="org-ul">
 <li>An intro to Pandas</li>
 <li>Reading csv and excel files over http.</li>
@@ -420,17 +420,17 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 </div>
 </div>
 
-<div id="outline-container-orgf176813" class="outline-3">
-<h3 id="orgf176813">Session 4</h3>
-<div class="outline-text-3" id="text-orgf176813">
+<div id="outline-container-org04a6017" class="outline-3">
+<h3 id="org04a6017">Session 4</h3>
+<div class="outline-text-3" id="text-org04a6017">
 <p>
 <a href="https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-org461761b" class="outline-4">
-<h4 id="org461761b">Exercise: What is the average on and off-peak real-time fuel mix?</h4>
-<div class="outline-text-4" id="text-org461761b">
+<div id="outline-container-orge9a254d" class="outline-4">
+<h4 id="orge9a254d">Exercise: What is the average on and off-peak real-time fuel mix?</h4>
+<div class="outline-text-4" id="text-orge9a254d">
 <ul class="org-ul">
 <li>Dates in Pandas.</li>
 <li>Interacting with the operating system from Python.</li>
@@ -440,17 +440,17 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 </div>
 </div>
 
-<div id="outline-container-orgcdbd65a" class="outline-3">
-<h3 id="orgcdbd65a">Session 5</h3>
-<div class="outline-text-3" id="text-orgcdbd65a">
+<div id="outline-container-org404d0d4" class="outline-3">
+<h3 id="org404d0d4">Session 5</h3>
+<div class="outline-text-3" id="text-org404d0d4">
 <p>
 <a href="https://colab.research.google.com/drive/18axbgTGt66R7fXa3tsiErQMoyb8m-AJD">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-org5514c26" class="outline-4">
-<h4 id="org5514c26">Exercise: Where were the PPP loans made?</h4>
-<div class="outline-text-4" id="text-org5514c26">
+<div id="outline-container-org87308c6" class="outline-4">
+<h4 id="org87308c6">Exercise: Where were the PPP loans made?</h4>
+<div class="outline-text-4" id="text-org87308c6">
 <ul class="org-ul">
 <li>Filtering DataFrames</li>
 <li>Pivot Tables</li>
@@ -459,9 +459,9 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 </div>
 </div>
 
-<div id="outline-container-orgb5bf8bc" class="outline-3">
-<h3 id="orgb5bf8bc">Session 6</h3>
-<div class="outline-text-3" id="text-orgb5bf8bc">
+<div id="outline-container-org040553f" class="outline-3">
+<h3 id="org040553f">Session 6</h3>
+<div class="outline-text-3" id="text-org040553f">
 <p>
 <a href="https://colab.research.google.com/drive/1TWjqlgTp1Fyyy_ykp48LBVFWjRqtBwzo">Colab Notebook</a>
 </p>
@@ -473,17 +473,17 @@ The previous sections have used data available online through APIs and flat file
 </div>
 </div>
 
-<div id="outline-container-orgdf55129" class="outline-2">
-<h2 id="orgdf55129">Module 2: Numpy/Scipy and APIs</h2>
-<div class="outline-text-2" id="text-orgdf55129">
+<div id="outline-container-org2922578" class="outline-2">
+<h2 id="org2922578">Module 2: Numpy/Scipy and APIs</h2>
+<div class="outline-text-2" id="text-org2922578">
 <p>
 This module focuses on using scientific computing libraries such as Numpy Scipy to complete investments-focused tasks. We also retrieve JSON data from APIs.
 </p>
 </div>
 
-<div id="outline-container-org8713ff4" class="outline-3">
-<h3 id="org8713ff4">Session 7</h3>
-<div class="outline-text-3" id="text-org8713ff4">
+<div id="outline-container-org1fe2d13" class="outline-3">
+<h3 id="org1fe2d13">Session 7</h3>
+<div class="outline-text-3" id="text-org1fe2d13">
 <p>
 <a href="https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH">Colab Notebook</a>
 </p>
@@ -500,17 +500,17 @@ data
 </ul>
 </div>
 
-<div id="outline-container-org7b9b92f" class="outline-4">
-<h4 id="org7b9b92f">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</h4>
+<div id="outline-container-org8a5aa30" class="outline-4">
+<h4 id="org8a5aa30">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</h4>
 </div>
-<div id="outline-container-orgc55b312" class="outline-4">
-<h4 id="orgc55b312">Alternative: Calculate futures prices given options (but we cant get this from API data).</h4>
+<div id="outline-container-org248c123" class="outline-4">
+<h4 id="org248c123">Alternative: Calculate futures prices given options (but we cant get this from API data).</h4>
 </div>
 </div>
 
-<div id="outline-container-orgb5e7d8b" class="outline-3">
-<h3 id="orgb5e7d8b">Session 8</h3>
-<div class="outline-text-3" id="text-orgb5e7d8b">
+<div id="outline-container-orgb454b6c" class="outline-3">
+<h3 id="orgb454b6c">Session 8</h3>
+<div class="outline-text-3" id="text-orgb454b6c">
 <p>
 <a href="https://colab.research.google.com/drive/1GGXpVBhSIypRslVcjWB5TYcexeRxZlyY">Colab Notebook</a>
 </p>
@@ -523,39 +523,39 @@ data
 </ul>
 </div>
 
-<div id="outline-container-org7b67c79" class="outline-4">
-<h4 id="org7b67c79">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</h4>
-<div class="outline-text-4" id="text-org7b67c79">
+<div id="outline-container-org5e960d3" class="outline-4">
+<h4 id="org5e960d3">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</h4>
+<div class="outline-text-4" id="text-org5e960d3">
 </div>
 </div>
 </div>
 
-<div id="outline-container-org2edca7f" class="outline-3">
-<h3 id="org2edca7f">Session 9</h3>
-<div class="outline-text-3" id="text-org2edca7f">
+<div id="outline-container-orgd148f67" class="outline-3">
+<h3 id="orgd148f67">Session 9</h3>
+<div class="outline-text-3" id="text-orgd148f67">
 <p>
 <a href="https://colab.research.google.com/drive/1u4BUOasPaIVfe8-rD73QXlXmt5EMIMxK">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-org664aeb0" class="outline-4">
-<h4 id="org664aeb0">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</h4>
+<div id="outline-container-org29b4979" class="outline-4">
+<h4 id="org29b4979">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</h4>
 </div>
 </div>
 </div>
 
 
-<div id="outline-container-org00414d4" class="outline-2">
-<h2 id="org00414d4">Module 3: Sharing Your Work</h2>
-<div class="outline-text-2" id="text-org00414d4">
+<div id="outline-container-org5144d9f" class="outline-2">
+<h2 id="org5144d9f">Module 3: Sharing Your Work</h2>
+<div class="outline-text-2" id="text-org5144d9f">
 <p>
 This module focuses on showcasing your work via visualizations, sharing code via git and GitHub.  We also cover reproducible environments.
 </p>
 </div>
 
-<div id="outline-container-org39ea255" class="outline-3">
-<h3 id="org39ea255">Session 10</h3>
-<div class="outline-text-3" id="text-org39ea255">
+<div id="outline-container-orge265aee" class="outline-3">
+<h3 id="orge265aee">Session 10</h3>
+<div class="outline-text-3" id="text-orge265aee">
 <p>
 <a href="https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe">Colab Notebook</a>
 </p>
@@ -573,9 +573,9 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 </div>
 
-<div id="outline-container-org35d09fd" class="outline-3">
-<h3 id="org35d09fd">Session 11</h3>
-<div class="outline-text-3" id="text-org35d09fd">
+<div id="outline-container-orgb26c169" class="outline-3">
+<h3 id="orgb26c169">Session 11</h3>
+<div class="outline-text-3" id="text-orgb26c169">
 <ul class="org-ul">
 <li>The Integrated Development Environment (IDE)
 <ul class="org-ul">
@@ -596,9 +596,9 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 </div>
 
-<div id="outline-container-orgf92ff5a" class="outline-3">
-<h3 id="orgf92ff5a">Session 12</h3>
-<div class="outline-text-3" id="text-orgf92ff5a">
+<div id="outline-container-org828d949" class="outline-3">
+<h3 id="org828d949">Session 12</h3>
+<div class="outline-text-3" id="text-org828d949">
 <p>
 <a href="https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_">Colab Notebook</a>
 </p>
@@ -617,13 +617,13 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 </div>
 
-<div id="outline-container-orgba92594" class="outline-2">
-<h2 id="orgba92594">Bonus Material</h2>
-<div class="outline-text-2" id="text-orgba92594">
+<div id="outline-container-orgdf5da35" class="outline-2">
+<h2 id="orgdf5da35">Bonus Material</h2>
+<div class="outline-text-2" id="text-orgdf5da35">
 </div>
-<div id="outline-container-org1543c51" class="outline-3">
-<h3 id="org1543c51">Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow</h3>
-<div class="outline-text-3" id="text-org1543c51">
+<div id="outline-container-org059da69" class="outline-3">
+<h3 id="org059da69">Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow</h3>
+<div class="outline-text-3" id="text-org059da69">
 <p>
 <a href="https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing">Colab Notebook</a>
 </p>
@@ -631,9 +631,9 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 
 
-<div id="outline-container-orgb591d02" class="outline-3">
-<h3 id="orgb591d02">Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)</h3>
-<div class="outline-text-3" id="text-orgb591d02">
+<div id="outline-container-orgf40c79a" class="outline-3">
+<h3 id="orgf40c79a">Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)</h3>
+<div class="outline-text-3" id="text-orgf40c79a">
 <p>
 <a href="https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P">Colab Notebook</a>
 </p>
@@ -642,7 +642,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2021-08-30 Mon 22:42</p>
+<p class="date">Created: 2021-08-31 Tue 14:41</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -21,7 +21,7 @@ We can provide exercises at the end of each session.  The students can complete 
 
 ** Session 0
 
-Session Video [Link]
+[[https://youtu.be/1hSvSJblH5Q][Session Video]]
 
 - Course Overview:  
   + What we will cover in the course.  
