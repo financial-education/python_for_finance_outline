@@ -15,7 +15,7 @@ We can provide exercises at the end of each session.  The students can complete 
 
 * Introduction
 
-Intro Video
+[[https://youtu.be/fGNuZYlk0TA][Intro Video]]
 
 * Module 0: Setup
 
