@@ -34,7 +34,11 @@ We can provide exercises at the end of each session.  The students can complete 
 
 ** Session 1
 
-Session Video
+[[https://youtu.be/nssQNdjyiSQ][Session Video (Part 1) Colab Notebooks and Basic Arithmetic]]
+
+[[https://youtu.be/yUql_y6BZj4][Session Video (Part 2) Defining Functions and Data Types]]
+
+[[https://youtu.be/PZR7M0cRNwg][Exercise Solution Video]]
 
 [[https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5][Colab Notebook]]
 
