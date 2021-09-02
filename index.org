@@ -53,6 +53,10 @@ We can provide exercises at the end of each session.  The students can complete 
 
 ** Session 2
 
+[[https://youtu.be/6ne6TcRNzVw][Session Video]]
+
+[[https://www.youtube.com/watch?v=g8c3bxk_eJU][Exercise Solution Video]]
+
 [[https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_][Colab Notebook]]
 
 - Sharing code and the Python ecosystem.  
