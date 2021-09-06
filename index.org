@@ -73,6 +73,8 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 
 ** Session 3
 
+[[https://youtu.be/fCfx-Ftr_w0][Session Video]]
+
 [[https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R][Colab Notebook]]
 
 *** Exercise: Is there a correlation between industry institutional ownership and return on equity?
