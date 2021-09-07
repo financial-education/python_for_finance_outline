@@ -89,6 +89,8 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 
 ** Session 4
 
+[[https://youtu.be/kRqKKKaLVk8][Session Video]]
+
 [[https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh][Colab Notebook]]
 
 *** Exercise: What is the average on and off-peak real-time fuel mix?
