@@ -153,6 +153,8 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 
 ** Session 8
 
+[[https://youtu.be/GlyMFMAGxhc][Session Video]]
+
 [[https://colab.research.google.com/drive/1GGXpVBhSIypRslVcjWB5TYcexeRxZlyY][Colab Notebook]]
 
 -  An overview of scipy and basic statistics in Python.
