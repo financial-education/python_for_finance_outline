@@ -2,24 +2,18 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
-The course is broadly divided into 4 modules, each with 3 to 4 sessions. There are also 2 bonus sessions.
+A couple notes:
 
-- Be sure to follow along in your copy of the Colab Notebooks.
-- You can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
+- When watching the videos, be sure to follow along in your copy of the Colab Notebooks.
+- When you modify a Colab notebook it automatically creates a new notebook (with a new link).  This means you can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
+-  Most courses in using Python in Finance use stock data and create trading algorithms.  This is a very niche skill.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These are common tasks, and are increasingly being answered in Python rather than Excel.
+-  There are exercises at the end of each session.  Be sure to complete them.
 
-#+BEGIN_COMMENT
-Note most other courses use stock data and create trading algorithms.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These questions are increasingly being answered in Python rather than Excel.
-
-We can provide exercises at the end of each session.  The students can complete these in a Jupyter notebook, and we can provide solutions.  Do we want to attempt to grade them?
-#+END_COMMENT
-
-* Introduction
+* Module 0: Introduction and Setup
 
 [[https://youtu.be/fGNuZYlk0TA][Intro Video]]
 
-* Module 0: Setup
-
-** Session 0
+** Week 0
 
 [[https://youtu.be/1hSvSJblH5Q][Session Video]]
 
@@ -32,7 +26,7 @@ We can provide exercises at the end of each session.  The students can complete 
   + Comparison with R
   + Using Javascript for Visualization
 
-** Session 1
+** Week 1
 
 [[https://youtu.be/nssQNdjyiSQ][Session Video (Part 1) Colab Notebooks and Basic Arithmetic]]
 
@@ -51,7 +45,7 @@ We can provide exercises at the end of each session.  The students can complete 
 - Basic control flow
 - The importance of indentation
 
-** Session 2
+** Week 2
 
 [[https://youtu.be/6ne6TcRNzVw][Session Video]]
 
@@ -67,11 +61,11 @@ We can provide exercises at the end of each session.  The students can complete 
   + How to call methods/functions from a package.
   + Package security.
 
-* Module 1: Pandas and Spreadsheet Data
+* Module 1: Pandas and Spreadsheet (tabular) Data
 
 This module focuses on corporate finance related tasks.  Accordingly we read data from spreadsheet and /Dataframe/ structures.
 
-** Session 3
+** Week 3
 
 [[https://youtu.be/fCfx-Ftr_w0][Session Video]]
 
@@ -87,7 +81,7 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 - Adding new columns
 - A note of functions vs methods.
 
-** Session 4
+** Week 4
 
 [[https://youtu.be/kRqKKKaLVk8][Session Video]]
 
@@ -106,7 +100,7 @@ Alternative Exercises:
  What is the NPV of a Power Plant over a Year?
 #+end_comment
 
-** Session 5
+** Week 5
 
 [[https://colab.research.google.com/drive/18axbgTGt66R7fXa3tsiErQMoyb8m-AJD][Colab Notebook]]
 
@@ -123,7 +117,7 @@ Finish notebook and summarize what was learned.
 Connecting to databases here?
 #+end_comment
 
-** Session 6
+** Week 6
 
 [[https://colab.research.google.com/drive/1TWjqlgTp1Fyyy_ykp48LBVFWjRqtBwzo][Colab Notebook]]
 
@@ -137,7 +131,7 @@ The previous sections have used data available online through APIs and flat file
   
 This module focuses on using scientific computing libraries such as Numpy Scipy to complete investments-focused tasks. We also retrieve JSON data from APIs.
 
-** Session 7
+** Week 7
 
 [[https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH][Colab Notebook]]
 
@@ -151,7 +145,7 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 *** Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.
 *** Alternative: Calculate futures prices given options (but we cant get this from API data).
 
-** Session 8
+** Week 8
 
 [[https://youtu.be/GlyMFMAGxhc][Session Video]]
 
@@ -171,7 +165,7 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 - Example: Classification of Failed/Acquired Banks via Neural Network
 #+end_comment
 
-** Session 9
+** Week 9
 
 [[https://colab.research.google.com/drive/1u4BUOasPaIVfe8-rD73QXlXmt5EMIMxK][Colab Notebook]]
 
@@ -182,7 +176,7 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 
 This module focuses on showcasing your work via visualizations, sharing code via git and GitHub.  We also cover reproducible environments.
 
-** Session 10
+** Week 10
 
 [[https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe][Colab Notebook]]
 
@@ -193,7 +187,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
   + ggplot (using plotnine library)
 - Interactive Web Apps via Plotly's Dash
 
-** Session 11
+** Week 11
 
 - The Integrated Development Environment (IDE)
   + What does an IDE provide?
@@ -205,7 +199,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
   +  Ensuring compatible python and package versions.
   +  Anaconda Python
 
-** Session 12
+** Week 12
 
 [[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
 
@@ -229,4 +223,6 @@ This module focuses on showcasing your work via visualizations, sharing code via
 
 [[https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P][Colab Notebook]]
 
+** Calculating Greeks for the Margrabe Model
 
+[TODO: Link to notebook]
