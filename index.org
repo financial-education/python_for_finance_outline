@@ -13,6 +13,8 @@ A couple notes:
 
 [[https://youtu.be/fGNuZYlk0TA][Intro Video]]
 
+[[https://financial-education.github.io/FIN_420_analytics_intro/][Intro Presentation]]
+
 ** Week 0
 
 [[https://youtu.be/1hSvSJblH5Q][Session Video]]
