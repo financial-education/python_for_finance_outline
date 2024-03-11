@@ -138,7 +138,7 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 [[https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH][Colab Notebook]]
 
 - An introduction to Application Programming Interfaces (APIs) and online
-  data
+  data.  Above notebook uses the yfinance package.  Additional APIs we can use.
   + Example: Coinbase API
   + Example: Interactive Brokers API
   + EIA API.
@@ -149,12 +149,16 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 
 ** Week 8
 
+[[https://colab.research.google.com/drive/1nwjcVVXXBYQGrNsjE175ZuVV8dP2s6DN?usp=sharing][Colab Notebook]] 
+
+*** Old video and notebook.  Coinbase API Packages are now broken.
+
 [[https://youtu.be/GlyMFMAGxhc][Session Video]]
 
 [[https://colab.research.google.com/drive/1GGXpVBhSIypRslVcjWB5TYcexeRxZlyY][Colab Notebook]]
 
 -  An overview of scipy and basic statistics in Python.
-  + Extracting coefficients from an estimated regression model.
+- Extracting coefficients from an estimated regression model.
 
 *** Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.
 
