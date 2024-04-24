@@ -231,4 +231,4 @@ This module focuses on showcasing your work via visualizations, sharing code via
 
 ** Calculating Greeks for the Margrabe Model
 
-[TODO: Link to notebook]
+[[https://colab.research.google.com/drive/1OtpEsx3RyoishcmKX4Q0a_DZ2XHM3rje][Colab Notebook]]
