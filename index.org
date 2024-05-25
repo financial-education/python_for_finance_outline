@@ -6,8 +6,8 @@ A couple notes:
 
 - When watching the videos, be sure to follow along in your copy of the Colab Notebooks.
 - When you modify a Colab notebook it automatically creates a new notebook (with a new link).  This means you can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
--  Most courses in using Python in Finance use stock data and create trading algorithms.  This is a very niche skill.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These are common tasks, and are increasingly being answered in Python rather than Excel.
--  There are exercises at the end of each session.  Be sure to complete them.
+- Most courses in using Python in Finance use stock data and create trading algorithms.  This is a very niche skill.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These are common tasks, and are increasingly being answered in Python rather than Excel.
+- There are exercises at the end of each session.  Be sure to complete them.
 
 * Module 0: Introduction and Setup
 
@@ -19,6 +19,7 @@ A couple notes:
 
 [[https://youtu.be/1hSvSJblH5Q][Session Video]]
 
+Topics covered:
 - Course Overview:  
   + What we will cover in the course.  
   + The use of Python in finance.
@@ -30,14 +31,15 @@ A couple notes:
 
 ** Week 1
 
+[[https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5][Colab Notebook]]
+
 [[https://youtu.be/nssQNdjyiSQ][Session Video (Part 1) Colab Notebooks and Basic Arithmetic]]
 
 [[https://youtu.be/yUql_y6BZj4][Session Video (Part 2) Defining Functions and Data Types]]
 
 [[https://youtu.be/PZR7M0cRNwg][Exercise Solution Video]]
 
-[[https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5][Colab Notebook]]
-
+Topics covered:
 -  Interacting with Python
   + Google's Colab and Jupyter
     - Introduction to markdown
@@ -49,12 +51,13 @@ A couple notes:
 
 ** Week 2
 
+[[https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_][Colab Notebook]]
+
 [[https://youtu.be/6ne6TcRNzVw][Session Video]]
 
 [[https://www.youtube.com/watch?v=g8c3bxk_eJU][Exercise Solution Video]]
 
-[[https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_][Colab Notebook]]
-
+Topics covered:
 - Sharing code and the Python ecosystem.  
 - Python Packages
   + Extending the core language
@@ -69,12 +72,13 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 
 ** Week 3
 
-[[https://youtu.be/fCfx-Ftr_w0][Session Video]]
-
 [[https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R][Colab Notebook]]
+
+[[https://youtu.be/fCfx-Ftr_w0][Session Video]]
 
 *** Exercise: Is there a correlation between industry institutional ownership and return on equity?
 
+Topics covered:
 - An intro to Pandas
 - Reading csv and excel files over http.
 - Data cleaning.
@@ -85,12 +89,13 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 
 ** Week 4
 
-[[https://youtu.be/kRqKKKaLVk8][Session Video]]
-
 [[https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh][Colab Notebook]]
+
+[[https://youtu.be/kRqKKKaLVk8][Session Video]]
 
 *** Exercise: What is the average on and off-peak real-time fuel mix?
 
+Topics covered:
 - Dates in Pandas.
 - Interacting with the operating system from Python.
 - Summarizing by creating group means, etc.
@@ -108,6 +113,7 @@ Alternative Exercises:
 
 *** Exercise: Where were the PPP loans made?
 
+Topics covered:
 - Filtering DataFrames
 - Pivot Tables
 
@@ -177,12 +183,32 @@ This module focuses on using scientific computing libraries such as Numpy Scipy 
 
 *** Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)
 
+** Week 10 
 
-* Module 3: Sharing Your Work
+[[https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P][Colab Notebook]]
+
+Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)
+
+* Module 3: AI/ML
+
+** Week 11 
+
+[[https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing][Colab Notebook]]
+
+Predict Small Business Loans with a Deep Neural Network in Tensorflow
+
+
+** Week 12: 
+
+[[https://colab.research.google.com/drive/1OtpEsx3RyoishcmKX4Q0a_DZ2XHM3rje][Colab Notebook]]
+
+Using Pytorch to Calculate Greeks for the Margrabe Model
+
+* Module 4: Sharing Your Work
 
 This module focuses on showcasing your work via visualizations, sharing code via git and GitHub.  We also cover reproducible environments.
 
-** Week 10
+** Week 13
 
 [[https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe][Colab Notebook]]
 
@@ -193,7 +219,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
   + ggplot (using plotnine library)
 - Interactive Web Apps via Plotly's Dash
 
-** Week 11
+** Week 14
 
 - The Integrated Development Environment (IDE)
   + What does an IDE provide?
@@ -205,7 +231,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
   +  Ensuring compatible python and package versions.
   +  Anaconda Python
 
-** Week 12
+** Week 15
 
 [[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
 
@@ -217,18 +243,3 @@ This module focuses on showcasing your work via visualizations, sharing code via
 #+BEGIN_COMMENT
 - [[https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb][Github from Colab]]
 #+END_COMMENT
-
-* Bonus Material
-
-** Bonus Project: Predict Small Business Loans with a Deep Neural Network in Tensorflow
-
-[[https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing][Colab Notebook]]
-
-
-** Bonus Project: Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc)
-
-[[https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P][Colab Notebook]]
-
-** Calculating Greeks for the Margrabe Model
-
-[[https://colab.research.google.com/drive/1OtpEsx3RyoishcmKX4Q0a_DZ2XHM3rje][Colab Notebook]]
