@@ -221,6 +221,15 @@ This module focuses on showcasing your work via visualizations, sharing code via
 
 ** Week 14
 
+[[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
+
+- Git/Github and IDE Integration
+  + Why use version control?
+    - Collaborate with others more easily.
+    - Show others your work.
+
+** Week 15
+
 - The Integrated Development Environment (IDE)
   + What does an IDE provide?
     - Code Completion
@@ -231,14 +240,7 @@ This module focuses on showcasing your work via visualizations, sharing code via
   +  Ensuring compatible python and package versions.
   +  Anaconda Python
 
-** Week 15
 
-[[https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_][Colab Notebook]]
-
-- Git/Github and IDE Integration
-  + Why use version control?
-    - Collaborate with others more easily.
-    - Show others your work.
 
 #+BEGIN_COMMENT
 - [[https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb][Github from Colab]]

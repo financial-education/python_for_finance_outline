@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-05-25 Sat 16:16 -->
+<!-- 2024-06-19 Wed 12:51 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Python for Finance</title>
@@ -22,66 +22,66 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org6db17df">Module 0: Introduction and Setup</a>
+<li><a href="#org764378d">Module 0: Introduction and Setup</a>
 <ul>
-<li><a href="#org14b1522">Week 0</a></li>
-<li><a href="#org7749bae">Week 1</a></li>
-<li><a href="#orgd4502d6">Week 2</a></li>
+<li><a href="#org821e338">Week 0</a></li>
+<li><a href="#orgf9ce88e">Week 1</a></li>
+<li><a href="#org3dc50fa">Week 2</a></li>
 </ul>
 </li>
-<li><a href="#org43ee1a7">Module 1: Pandas and Spreadsheet (tabular) Data</a>
+<li><a href="#org0a08d87">Module 1: Pandas and Spreadsheet (tabular) Data</a>
 <ul>
-<li><a href="#org3b4e2b9">Week 3</a>
+<li><a href="#orgeebd7e4">Week 3</a>
 <ul>
-<li><a href="#org5ab683e">Exercise: Is there a correlation between industry institutional ownership and return on equity?</a></li>
+<li><a href="#orgfb6b26c">Exercise: Is there a correlation between industry institutional ownership and return on equity?</a></li>
 </ul>
 </li>
-<li><a href="#org63e8d53">Week 4</a>
+<li><a href="#org12e0143">Week 4</a>
 <ul>
-<li><a href="#org41dddc6">Exercise: What is the average on and off-peak real-time fuel mix?</a></li>
+<li><a href="#org5c4f87b">Exercise: What is the average on and off-peak real-time fuel mix?</a></li>
 </ul>
 </li>
-<li><a href="#orgb5d5ce2">Week 5</a>
+<li><a href="#org0242833">Week 5</a>
 <ul>
-<li><a href="#org7409441">Exercise: Where were the PPP loans made?</a></li>
+<li><a href="#org11710f4">Exercise: Where were the PPP loans made?</a></li>
 </ul>
 </li>
-<li><a href="#org12b4c9e">Week 6</a></li>
+<li><a href="#org5e0e52e">Week 6</a></li>
 </ul>
 </li>
-<li><a href="#org2de5b46">Module 2: Numpy/Scipy and APIs</a>
+<li><a href="#orgaab1792">Module 2: Numpy/Scipy and APIs</a>
 <ul>
-<li><a href="#orgeafbb7e">Week 7</a>
+<li><a href="#orgae5bc4c">Week 7</a>
 <ul>
-<li><a href="#orgff66729">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</a></li>
-<li><a href="#orgc10fee1">Alternative: Calculate futures prices given options (but we cant get this from API data).</a></li>
+<li><a href="#org7ee519a">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</a></li>
+<li><a href="#org24bc4b6">Alternative: Calculate futures prices given options (but we cant get this from API data).</a></li>
 </ul>
 </li>
-<li><a href="#org868fc6e">Week 8</a>
+<li><a href="#orge70c70f">Week 8</a>
 <ul>
-<li><a href="#org4cb4bc6">Old video and notebook.  Coinbase API Packages are now broken.</a></li>
-<li><a href="#org7f4e62e">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</a></li>
+<li><a href="#orgfe04e03">Old video and notebook.  Coinbase API Packages are now broken.</a></li>
+<li><a href="#orgd9a47b8">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</a></li>
 </ul>
 </li>
-<li><a href="#org7ec0b71">Week 9</a>
+<li><a href="#org0a94972">Week 9</a>
 <ul>
-<li><a href="#orgde1c536">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</a></li>
+<li><a href="#org9a9cba9">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</a></li>
 </ul>
 </li>
-<li><a href="#orgf9f867d">Week 10</a></li>
+<li><a href="#orgf769f3f">Week 10</a></li>
 </ul>
 </li>
-<li><a href="#org3011124">Module 3: AI/ML</a>
+<li><a href="#org710992f">Module 3: AI/ML</a>
 <ul>
-<li><a href="#org219e313">Week 11</a></li>
-<li><a href="#orga73ef58">Week 12:</a></li>
+<li><a href="#orge006dea">Week 11</a></li>
+<li><a href="#org2ca8a87">Week 12:</a></li>
 </ul>
 </li>
-<li><a href="#orgb8a8683">Module 4: Sharing Your Work</a>
+<li><a href="#org57659c1">Module 4: Sharing Your Work</a>
 <ul>
-<li><a href="#orga147512">Week 13</a></li>
-<li><a href="#org0687c1d">Week 14</a></li>
-<li><a href="#orgd60f9b1">Week 15</a></li>
+<li><a href="#orgee8757d">Week 13</a></li>
+<li><a href="#orgbd57d87">Week 14</a></li>
+<li><a href="#orgc47cd6f">Week 15</a></li>
 </ul>
 </li>
 </ul>
@@ -98,9 +98,9 @@ A couple notes:
 <li>There are exercises at the end of each session.  Be sure to complete them.</li>
 </ul>
 
-<div id="outline-container-org6db17df" class="outline-2">
-<h2 id="org6db17df">Module 0: Introduction and Setup</h2>
-<div class="outline-text-2" id="text-org6db17df">
+<div id="outline-container-org764378d" class="outline-2">
+<h2 id="org764378d">Module 0: Introduction and Setup</h2>
+<div class="outline-text-2" id="text-org764378d">
 <p>
 <a href="https://youtu.be/fGNuZYlk0TA">Intro Video</a>
 </p>
@@ -110,9 +110,9 @@ A couple notes:
 </p>
 </div>
 
-<div id="outline-container-org14b1522" class="outline-3">
-<h3 id="org14b1522">Week 0</h3>
-<div class="outline-text-3" id="text-org14b1522">
+<div id="outline-container-org821e338" class="outline-3">
+<h3 id="org821e338">Week 0</h3>
+<div class="outline-text-3" id="text-org821e338">
 <p>
 <a href="https://youtu.be/1hSvSJblH5Q">Session Video</a>
 </p>
@@ -137,9 +137,9 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-org7749bae" class="outline-3">
-<h3 id="org7749bae">Week 1</h3>
-<div class="outline-text-3" id="text-org7749bae">
+<div id="outline-container-orgf9ce88e" class="outline-3">
+<h3 id="orgf9ce88e">Week 1</h3>
+<div class="outline-text-3" id="text-orgf9ce88e">
 <p>
 <a href="https://colab.research.google.com/drive/1f2JRrZsZ029JNiPnP_GNiVsyi-e6MXO5">Colab Notebook</a>
 </p>
@@ -176,9 +176,9 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-orgd4502d6" class="outline-3">
-<h3 id="orgd4502d6">Week 2</h3>
-<div class="outline-text-3" id="text-orgd4502d6">
+<div id="outline-container-org3dc50fa" class="outline-3">
+<h3 id="org3dc50fa">Week 2</h3>
+<div class="outline-text-3" id="text-org3dc50fa">
 <p>
 <a href="https://colab.research.google.com/drive/12QKdTc3ulsEQ2cAdmbhq5RkTx9oB1YZ_">Colab Notebook</a>
 </p>
@@ -209,17 +209,17 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-org43ee1a7" class="outline-2">
-<h2 id="org43ee1a7">Module 1: Pandas and Spreadsheet (tabular) Data</h2>
-<div class="outline-text-2" id="text-org43ee1a7">
+<div id="outline-container-org0a08d87" class="outline-2">
+<h2 id="org0a08d87">Module 1: Pandas and Spreadsheet (tabular) Data</h2>
+<div class="outline-text-2" id="text-org0a08d87">
 <p>
 This module focuses on corporate finance related tasks.  Accordingly we read data from spreadsheet and <i>Dataframe</i> structures.
 </p>
 </div>
 
-<div id="outline-container-org3b4e2b9" class="outline-3">
-<h3 id="org3b4e2b9">Week 3</h3>
-<div class="outline-text-3" id="text-org3b4e2b9">
+<div id="outline-container-orgeebd7e4" class="outline-3">
+<h3 id="orgeebd7e4">Week 3</h3>
+<div class="outline-text-3" id="text-orgeebd7e4">
 <p>
 <a href="https://colab.research.google.com/drive/1KLqsQWbXHYSruQXBAJ1QamsxV9FLDN_R">Colab Notebook</a>
 </p>
@@ -229,9 +229,9 @@ This module focuses on corporate finance related tasks.  Accordingly we read dat
 </p>
 </div>
 
-<div id="outline-container-org5ab683e" class="outline-4">
-<h4 id="org5ab683e">Exercise: Is there a correlation between industry institutional ownership and return on equity?</h4>
-<div class="outline-text-4" id="text-org5ab683e">
+<div id="outline-container-orgfb6b26c" class="outline-4">
+<h4 id="orgfb6b26c">Exercise: Is there a correlation between industry institutional ownership and return on equity?</h4>
+<div class="outline-text-4" id="text-orgfb6b26c">
 <p>
 Topics covered:
 </p>
@@ -248,9 +248,9 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-org63e8d53" class="outline-3">
-<h3 id="org63e8d53">Week 4</h3>
-<div class="outline-text-3" id="text-org63e8d53">
+<div id="outline-container-org12e0143" class="outline-3">
+<h3 id="org12e0143">Week 4</h3>
+<div class="outline-text-3" id="text-org12e0143">
 <p>
 <a href="https://colab.research.google.com/drive/16UVjO2PEQUN5b1JoI__JYfj7K_aMuom7#scrollTo=nBbjWR1JYksh">Colab Notebook</a>
 </p>
@@ -260,9 +260,9 @@ Topics covered:
 </p>
 </div>
 
-<div id="outline-container-org41dddc6" class="outline-4">
-<h4 id="org41dddc6">Exercise: What is the average on and off-peak real-time fuel mix?</h4>
-<div class="outline-text-4" id="text-org41dddc6">
+<div id="outline-container-org5c4f87b" class="outline-4">
+<h4 id="org5c4f87b">Exercise: What is the average on and off-peak real-time fuel mix?</h4>
+<div class="outline-text-4" id="text-org5c4f87b">
 <p>
 Topics covered:
 </p>
@@ -275,17 +275,17 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-orgb5d5ce2" class="outline-3">
-<h3 id="orgb5d5ce2">Week 5</h3>
-<div class="outline-text-3" id="text-orgb5d5ce2">
+<div id="outline-container-org0242833" class="outline-3">
+<h3 id="org0242833">Week 5</h3>
+<div class="outline-text-3" id="text-org0242833">
 <p>
 <a href="https://colab.research.google.com/drive/18axbgTGt66R7fXa3tsiErQMoyb8m-AJD">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-org7409441" class="outline-4">
-<h4 id="org7409441">Exercise: Where were the PPP loans made?</h4>
-<div class="outline-text-4" id="text-org7409441">
+<div id="outline-container-org11710f4" class="outline-4">
+<h4 id="org11710f4">Exercise: Where were the PPP loans made?</h4>
+<div class="outline-text-4" id="text-org11710f4">
 <p>
 Topics covered:
 </p>
@@ -297,9 +297,9 @@ Topics covered:
 </div>
 </div>
 
-<div id="outline-container-org12b4c9e" class="outline-3">
-<h3 id="org12b4c9e">Week 6</h3>
-<div class="outline-text-3" id="text-org12b4c9e">
+<div id="outline-container-org5e0e52e" class="outline-3">
+<h3 id="org5e0e52e">Week 6</h3>
+<div class="outline-text-3" id="text-org5e0e52e">
 <p>
 <a href="https://colab.research.google.com/drive/1TWjqlgTp1Fyyy_ykp48LBVFWjRqtBwzo">Colab Notebook</a>
 </p>
@@ -311,17 +311,17 @@ The previous sections have used data available online through APIs and flat file
 </div>
 </div>
 
-<div id="outline-container-org2de5b46" class="outline-2">
-<h2 id="org2de5b46">Module 2: Numpy/Scipy and APIs</h2>
-<div class="outline-text-2" id="text-org2de5b46">
+<div id="outline-container-orgaab1792" class="outline-2">
+<h2 id="orgaab1792">Module 2: Numpy/Scipy and APIs</h2>
+<div class="outline-text-2" id="text-orgaab1792">
 <p>
 This module focuses on using scientific computing libraries such as Numpy Scipy to complete investments-focused tasks. We also retrieve JSON data from APIs.
 </p>
 </div>
 
-<div id="outline-container-orgeafbb7e" class="outline-3">
-<h3 id="orgeafbb7e">Week 7</h3>
-<div class="outline-text-3" id="text-orgeafbb7e">
+<div id="outline-container-orgae5bc4c" class="outline-3">
+<h3 id="orgae5bc4c">Week 7</h3>
+<div class="outline-text-3" id="text-orgae5bc4c">
 <p>
 <a href="https://colab.research.google.com/drive/16h1ykVWbb5fL-xRgOrYmYe9SqfrSin1x#scrollTo=4cmbxkCjM1fH">Colab Notebook</a>
 </p>
@@ -338,25 +338,25 @@ data.  Above notebook uses the yfinance package.  Additional APIs we can use.
 </ul>
 </div>
 
-<div id="outline-container-orgff66729" class="outline-4">
-<h4 id="orgff66729">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</h4>
+<div id="outline-container-org7ee519a" class="outline-4">
+<h4 id="org7ee519a">Exercise: Pull stock data via API and estimate a Markowitz mean-variance optimal portfolio.</h4>
 </div>
-<div id="outline-container-orgc10fee1" class="outline-4">
-<h4 id="orgc10fee1">Alternative: Calculate futures prices given options (but we cant get this from API data).</h4>
+<div id="outline-container-org24bc4b6" class="outline-4">
+<h4 id="org24bc4b6">Alternative: Calculate futures prices given options (but we cant get this from API data).</h4>
 </div>
 </div>
 
-<div id="outline-container-org868fc6e" class="outline-3">
-<h3 id="org868fc6e">Week 8</h3>
-<div class="outline-text-3" id="text-org868fc6e">
+<div id="outline-container-orge70c70f" class="outline-3">
+<h3 id="orge70c70f">Week 8</h3>
+<div class="outline-text-3" id="text-orge70c70f">
 <p>
 <a href="https://colab.research.google.com/drive/1nwjcVVXXBYQGrNsjE175ZuVV8dP2s6DN?usp=sharing">Colab Notebook</a> 
 </p>
 </div>
 
-<div id="outline-container-org4cb4bc6" class="outline-4">
-<h4 id="org4cb4bc6">Old video and notebook.  Coinbase API Packages are now broken.</h4>
-<div class="outline-text-4" id="text-org4cb4bc6">
+<div id="outline-container-orgfe04e03" class="outline-4">
+<h4 id="orgfe04e03">Old video and notebook.  Coinbase API Packages are now broken.</h4>
+<div class="outline-text-4" id="text-orgfe04e03">
 <p>
 <a href="https://youtu.be/GlyMFMAGxhc">Session Video</a>
 </p>
@@ -372,29 +372,29 @@ data.  Above notebook uses the yfinance package.  Additional APIs we can use.
 </div>
 </div>
 
-<div id="outline-container-org7f4e62e" class="outline-4">
-<h4 id="org7f4e62e">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</h4>
-<div class="outline-text-4" id="text-org7f4e62e">
+<div id="outline-container-orgd9a47b8" class="outline-4">
+<h4 id="orgd9a47b8">Exercise: Calculate market depth via Kyle's lambda. Use Coinbase API to get trades.</h4>
+<div class="outline-text-4" id="text-orgd9a47b8">
 </div>
 </div>
 </div>
 
-<div id="outline-container-org7ec0b71" class="outline-3">
-<h3 id="org7ec0b71">Week 9</h3>
-<div class="outline-text-3" id="text-org7ec0b71">
+<div id="outline-container-org0a94972" class="outline-3">
+<h3 id="org0a94972">Week 9</h3>
+<div class="outline-text-3" id="text-org0a94972">
 <p>
 <a href="https://colab.research.google.com/drive/1u4BUOasPaIVfe8-rD73QXlXmt5EMIMxK">Colab Notebook</a>
 </p>
 </div>
 
-<div id="outline-container-orgde1c536" class="outline-4">
-<h4 id="orgde1c536">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</h4>
+<div id="outline-container-org9a9cba9" class="outline-4">
+<h4 id="org9a9cba9">Exercise: Deposit insurance valuation using (Merton's) option pricing method. (chapter 19, Merton's CTF)</h4>
 </div>
 </div>
 
-<div id="outline-container-orgf9f867d" class="outline-3">
-<h3 id="orgf9f867d">Week 10</h3>
-<div class="outline-text-3" id="text-orgf9f867d">
+<div id="outline-container-orgf769f3f" class="outline-3">
+<h3 id="orgf769f3f">Week 10</h3>
+<div class="outline-text-3" id="text-orgf769f3f">
 <p>
 <a href="https://colab.research.google.com/drive/1WT7Wb9o24JxoQVKN429MVYfBdE9UzzY8#scrollTo=ZpTjfSSiKh8P">Colab Notebook</a>
 </p>
@@ -406,13 +406,13 @@ Calculate Performance Measures for Various ETFs (Sharpe, Information ratios, etc
 </div>
 </div>
 
-<div id="outline-container-org3011124" class="outline-2">
-<h2 id="org3011124">Module 3: AI/ML</h2>
-<div class="outline-text-2" id="text-org3011124">
+<div id="outline-container-org710992f" class="outline-2">
+<h2 id="org710992f">Module 3: AI/ML</h2>
+<div class="outline-text-2" id="text-org710992f">
 </div>
-<div id="outline-container-org219e313" class="outline-3">
-<h3 id="org219e313">Week 11</h3>
-<div class="outline-text-3" id="text-org219e313">
+<div id="outline-container-orge006dea" class="outline-3">
+<h3 id="orge006dea">Week 11</h3>
+<div class="outline-text-3" id="text-orge006dea">
 <p>
 <a href="https://colab.research.google.com/drive/1QUyAsBdFEoHqLUZduy9IeS7Er_lyczkU?usp=sharing">Colab Notebook</a>
 </p>
@@ -424,9 +424,9 @@ Predict Small Business Loans with a Deep Neural Network in Tensorflow
 </div>
 
 
-<div id="outline-container-orga73ef58" class="outline-3">
-<h3 id="orga73ef58">Week 12:</h3>
-<div class="outline-text-3" id="text-orga73ef58">
+<div id="outline-container-org2ca8a87" class="outline-3">
+<h3 id="org2ca8a87">Week 12:</h3>
+<div class="outline-text-3" id="text-org2ca8a87">
 <p>
 <a href="https://colab.research.google.com/drive/1OtpEsx3RyoishcmKX4Q0a_DZ2XHM3rje">Colab Notebook</a>
 </p>
@@ -438,17 +438,17 @@ Using Pytorch to Calculate Greeks for the Margrabe Model
 </div>
 </div>
 
-<div id="outline-container-orgb8a8683" class="outline-2">
-<h2 id="orgb8a8683">Module 4: Sharing Your Work</h2>
-<div class="outline-text-2" id="text-orgb8a8683">
+<div id="outline-container-org57659c1" class="outline-2">
+<h2 id="org57659c1">Module 4: Sharing Your Work</h2>
+<div class="outline-text-2" id="text-org57659c1">
 <p>
 This module focuses on showcasing your work via visualizations, sharing code via git and GitHub.  We also cover reproducible environments.
 </p>
 </div>
 
-<div id="outline-container-orga147512" class="outline-3">
-<h3 id="orga147512">Week 13</h3>
-<div class="outline-text-3" id="text-orga147512">
+<div id="outline-container-orgee8757d" class="outline-3">
+<h3 id="orgee8757d">Week 13</h3>
+<div class="outline-text-3" id="text-orgee8757d">
 <p>
 <a href="https://colab.research.google.com/drive/1CQ00H_duTY2lhiwzJ041JTPD6BGBdk5y#scrollTo=Z5RfT4TNucfe">Colab Notebook</a>
 </p>
@@ -466,9 +466,29 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </div>
 </div>
 
-<div id="outline-container-org0687c1d" class="outline-3">
-<h3 id="org0687c1d">Week 14</h3>
-<div class="outline-text-3" id="text-org0687c1d">
+<div id="outline-container-orgbd57d87" class="outline-3">
+<h3 id="orgbd57d87">Week 14</h3>
+<div class="outline-text-3" id="text-orgbd57d87">
+<p>
+<a href="https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_">Colab Notebook</a>
+</p>
+
+<ul class="org-ul">
+<li>Git/Github and IDE Integration
+<ul class="org-ul">
+<li>Why use version control?
+<ul class="org-ul">
+<li>Collaborate with others more easily.</li>
+<li>Show others your work.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc47cd6f" class="outline-3">
+<h3 id="orgc47cd6f">Week 15</h3>
+<div class="outline-text-3" id="text-orgc47cd6f">
 <ul class="org-ul">
 <li>The Integrated Development Environment (IDE)
 <ul class="org-ul">
@@ -488,30 +508,10 @@ This module focuses on showcasing your work via visualizations, sharing code via
 </ul>
 </div>
 </div>
-
-<div id="outline-container-orgd60f9b1" class="outline-3">
-<h3 id="orgd60f9b1">Week 15</h3>
-<div class="outline-text-3" id="text-orgd60f9b1">
-<p>
-<a href="https://colab.research.google.com/drive/1599E3ppEqm0Y0wAaMSm6CXWZtQW6fBNr#scrollTo=nAUGkiWESjX_">Colab Notebook</a>
-</p>
-
-<ul class="org-ul">
-<li>Git/Github and IDE Integration
-<ul class="org-ul">
-<li>Why use version control?
-<ul class="org-ul">
-<li>Collaborate with others more easily.</li>
-<li>Show others your work.</li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-</div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2024-05-25 Sat 16:16</p>
+<p class="date">Created: 2024-06-19 Wed 12:51</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
