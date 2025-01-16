@@ -2,12 +2,15 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: num:nil
 
-A couple notes:
+For students taking the course:  Each week you will submit your Colab notebook with the exercise completed.  To make sure you don't lose your work, save the Colab notebook you are modifying to your Google Drive.  This will create a unique URL for your Colab notebook.  When you have completed the exercise, submit this link to the Brightspace dropbox.  If you do not save your notebook to your Drive you may not get a unique URL, and then you will submit my own URL which will retain none of your modifications.  For your first couple submissions you may want to double-check that your URL is different from my notebook.
+
+A couple other notes:
 
 - When watching the videos, be sure to follow along in your copy of the Colab Notebooks.
-- When you modify a Colab notebook it automatically creates a new notebook (with a new link).  This means you can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
+- When you modify a Colab notebook it automatically creates a new notebook.  This means you can always go back to the original Colab Notebooks using the links below.  So don't hesitate to modify your copy---you learn best by experimenting. 
 - Most courses in using Python in Finance use stock data and create trading algorithms.  This is a very niche skill.  Here we are going to focus on core financial analyst tasks, e.g. what is the average PPP loan size in Texas? These are common tasks, and are increasingly being answered in Python rather than Excel.
 - There are exercises at the end of each session.  Be sure to complete them.
+- You should take the time to learn how to use Colab (Jupyter) notebooks.  Increasingly companies are using them for internal reporting.  
 
 * Module 0: Introduction and Setup
 
